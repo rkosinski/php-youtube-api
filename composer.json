@@ -1,13 +1,17 @@
 {
-    "name": "madcoda/php-youtube-api",
+    "name": "rkosinski/php-youtube-api",
     "type": "library",
     "description": "PHP wrapper for the Youtube Data API v3",
-    "keywords": ["youtube", "api", "video", "madcoda"],
+    "keywords": ["youtube", "api", "video", "madcoda", "rkosinski"],
     "license": "MIT",
     "authors": [
         {
             "name": "Madcoda",
             "email": "jason@madcoda.com"
+        },
+        {
+            "name": "Radosław Kosiński",
+            "email": "admin@rkosinski.pl"
         }
     ],
     "support":{
