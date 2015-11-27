@@ -367,7 +367,7 @@ class Youtube
             $segments = explode('/', $path);
             $channelId = $segments[count($segments) - 1];
             $channel = $this->getChannelById($channelId);
-        } else if (strpos($path, '/user') === 0) {
+        } else if (strpos($path, '/user') === 0 || strpos($path, '/c') === 0) {
             $segments = explode('/', $path);
             $username = $segments[count($segments) - 1];
             $channel = $this->getChannelByName($username);
